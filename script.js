@@ -1,12 +1,12 @@
 var zbr = 0;
 
-function razmak(zbr) {
+function razmak() {
+    zbr++;
     console.log('\n' + '-------------------------------------------------------' + '\n' + 'zadatak ' + zbr + '\n' + '-------------------------------------------------------');
 }
 
 //zadatak1
-zbr++;
-razmak(zbr);
+razmak();
 
 //a
 
@@ -30,8 +30,7 @@ console.log('Proizvod prve i trece je veci od 15 i druga varijable je negativna'
 }
 
 //zadatak2
-zbr++;
-razmak(zbr);
+razmak();
 
 var x = 22;
 
@@ -52,8 +51,7 @@ switch(x){
 }
 
 //zadatak3
-zbr++;
-razmak(zbr);
+razmak();
 
 var x = -7;
 var y = 1;
@@ -65,8 +63,7 @@ while (x + y < 0) {
 }
 
 //zadatak4
-zbr++;
-razmak(zbr);
+razmak();
 
 for(var i = 1; i <= 10; i ++){
     if(i % 2 == 0){
@@ -76,8 +73,7 @@ for(var i = 1; i <= 10; i ++){
 }
 
 //zadatak5
-zbr++;
-razmak(zbr);
+razmak();
 
 var niz = ['saab', 'volvo', 'mercedes'];
 
@@ -87,8 +83,7 @@ for(var i = 0; i < niz.length; i++){
 }
 
 //zadatak6
-zbr++;
-razmak(zbr);
+razmak();
 
 
 
@@ -101,8 +96,7 @@ for(var i = 0; i < niz.length; i++){
 }
 
 //zadatak7
-zbr++;
-razmak(zbr);
+razmak();
 
 for(var i = 0; i < niz.length; i++){
     if(niz[i] == 'volvo'){
@@ -113,8 +107,7 @@ for(var i = 0; i < niz.length; i++){
 }
 
 //zadatak8
-zbr++;
-razmak(zbr);
+razmak();
 
 console.log('Brojevi deljivi sa 3: ');
 
@@ -125,8 +118,7 @@ for(var i = 1; i <= 20; i++){
 }
 
 //zadatak9
-zbr++;
-razmak(zbr);
+razmak();
 
 var brojevi = [ 1, 3, 44, 23, 11];
 var zbir = 0;
@@ -140,8 +132,7 @@ var srednja_vrednost = zbir / brojevi.length;
 console.log('Srednja vrednost je: ' + srednja_vrednost);
 
 //zadatak10
-zbr++;
-razmak(zbr);
+razmak();
 
 var niz_brojeva = [1, 2, 7, 5, 21];
 
@@ -163,8 +154,7 @@ if (da == true){
 }
 
 //zadatak11
-zbr++;
-razmak(zbr);
+razmak();
 
 var simetricni_niz = [2, 7, 9, 9, 7, 2,];
 
@@ -199,8 +189,7 @@ if(simetricni_niz.length % 2 == 0){
 }
 
 //zadatak12
-zbr++;
-razmak(zbr);
+razmak();
 
 var matrica = [
     [0, 1, 0], 
@@ -225,8 +214,7 @@ for(var i = 0; i < matrica.length; i++){
 }
 
 //zadatak13
-zbr++;
-razmak(zbr);
+razmak();
 
 var decimalni_brojevi = [ 0.3, 1.4, 0.1, 3.3, 23.1, 3.1];
 
@@ -240,8 +228,7 @@ for(var i = 0; i < decimalni_brojevi.length; i++){
 console.log('Najveci broj niza je: ' + max);
 
 //zadatak14
-zbr++;
-razmak(zbr);
+razmak();
 
 var min = decimalni_brojevi[0];
 for(var i = 1; i < decimalni_brojevi.length; i++){
@@ -253,8 +240,7 @@ for(var i = 1; i < decimalni_brojevi.length; i++){
 console.log('Najmanji broj niza je: ' + min);
 
 //zadatak15
-zbr++;
-razmak(zbr);
+razmak();
 
 var matrica =[
     [1, 3, 6],
@@ -278,8 +264,7 @@ for(var i = 0; i < matrica.length; i++){
 console.log('Najveci element dijagonale matrice: ' + max);
 
 //zadatak16
-zbr++;
-razmak(zbr);
+razmak();
 
 
 var mat = [];
