@@ -1,0 +1,27 @@
+1. 	U primeru '4. objekti_hotel' u objekat hotel dodati metodu koja racuna cenu boravka za zadati broj nocenja. Cenu jednog
+	nocenja odrediti proizvoljno.
+
+2.	U primeru '4. objekti_hotel', izmeniti metodu za rezervaciju sobe tako da se moze rezervisati vise soba odjednom. 
+	Metoda kao parametar treba da prima broj soba koji se zeli rezervisati i za toliko uvecava broj rezervisanih soba.
+
+3.	Kreirati metodu za rezervaciju tako da se pre rezervisanja izvrsi provera da li je moguce rezervisati
+	zeljeni broj soba (da li je broj rezervisanih + zeljene rezervacije < broj soba).
+
+4.	Po uzoru na primer '4. objekti_hotel', keirati JavaScript objekat koji ce reprezentovati jedan automobil. 
+	Objekat treba da sadrzi slede atribute:
+		- Marka 	(String)
+		- Model		(String)
+		- Upaljen	(Boolean)
+		- Snaga		(int)
+		- Boja		(String)
+	I sledece metode:
+		- Upali: 		Postavlja atribut 'Upaljen' na true
+		- Ugasi: 		Postavlja atribut 'Upaljen' na false
+		- Prefarbaj:	Kao parametar prima ime nove boje, i postavlja atribut 'Boja' na tu vrednost
+	Kreirati i HTML stranicu za prikaz informacija o automobilu.
+
+5.	Primer '8. dom_hoteli' izmeniti tako da se, ako vise nema slobodnih soba u hotelu, umesto broja pise rec 'Nema' sa 
+	crvenom pozadinom i belom bojom fonta.
+
+6.	U primer '8. dom_hoteli' dodati funkciju koja ispisuje postotak slobodnih soba zaokruzen na jednu decimalu.
+	Dodati ovu novu informaciju u postojeci HTML ispis.
